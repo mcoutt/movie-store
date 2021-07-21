@@ -1,0 +1,13 @@
+
+content {
+  grid-area: content;
+  gap: 10px;
+  background-color: rgb(85, 83, 202);
+}
+
+content > .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #555555;
+  gap: 10px;
+}

@@ -1,0 +1,25 @@
+
+
+// .movieTitle {
+//   text-align: center;
+// }
+
+body {
+  background-color:#555555;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  width: 85%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px 1fr 200px;
+  background-color: #555555;
+  // padding: 30px;
+  grid-column-gap: 150px;
+
+  grid-template-areas: 
+    'header header header'
+    'content . .'
+    'footer footer footer';
+}
