@@ -27,6 +27,7 @@
     "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.2",
+    "cross-env": "^7.0.3",
     "date-fns": "^2.22.1",
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",

@@ -1,6 +1,6 @@
 import React from 'react';
 import ErrorBoundry from '../error-boundaries';
-import AddItem from "../add-item";
+import ItemModalAdd from "../item-modal-add";
 import './header.scss';
 
 
@@ -8,7 +8,7 @@ export default function HeaderItem() {
   return (
     <ErrorBoundry>
       <header className='logo logo-image'>
-        <AddItem/>
+        <ItemModalAdd/>
         <form>
           <label>
             <input type='text' name="search" className="search"></input>

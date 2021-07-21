@@ -5,7 +5,7 @@ import {MuiPickersUtilsProvider, KeyboardDatePicker} from '@material-ui/pickers'
 import Button from '@material-ui/core/Button';
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
-import './add-item.scss';
+import './item-modal-add.scss';
 
 function rand() {
   return Math.round(0.2198524788701166 * 20) - 10;
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function AddItem() {
+export default function ItemModalAdd() {
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
