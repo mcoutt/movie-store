@@ -1,9 +1,9 @@
 import React from 'react';
 
-class CreateElementExample extends React.Component {
-    render() {
-        return React.createElement('p', null, 'Test info from CreateElementExample')
-    }
-}
+const element = React.createElement(
+    'h1',
+  {className: 'greeting'},
+  'Test create Element!'
+)
 
-export default CreateElementExample;
+export default element;
